@@ -1,0 +1,12 @@
+{
+  "name": "json-to-csv-cli",
+  "version": "1.0.0",
+  "description": "Convierte archivos JSON a CSV desde la terminal",
+  "type": "module",
+  "bin": {
+    "json-to-csv": "./bin/index.js"
+  },
+  "dependencies": {
+    "json2csv": "^6.0.0"
+  }
+}
